@@ -10,5 +10,3 @@ Citizen.CreateThread(function()
         end
 	end
 end)
-
-print('[CADOJRP][PoliceBoost] Started!')
