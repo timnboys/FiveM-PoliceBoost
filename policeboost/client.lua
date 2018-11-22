@@ -1,6 +1,6 @@
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(0)
+		Citizen.Wait(5000)
         local ped = GetPlayerPed(-1)
         local veh = GetVehiclePedIsIn(ped, false)
         if veh ~= nil then
